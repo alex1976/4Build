@@ -20,10 +20,9 @@ Based on the project description in `index.html`, the target organization is:
 4build/
 +-- tools/
 +-- apis/
++-- datasets/
 +-- agents/
 +-- bim/
-+-- data/
-+-- documents/
 +-- README.md
 ```
 
@@ -56,12 +55,20 @@ The following resources were selected from official websites and active GitHub r
 - [Azure Maps REST APIs](https://learn.microsoft.com/en-us/rest/api/maps/): geospatial APIs for search, route, weather, traffic, and map rendering.
 - [Azure Maps Code Samples](https://github.com/Azure-Samples/AzureMapsCodeSamples): practical implementation samples for Azure Maps.
 
-### Data
+### Datasets
 
-- [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints): large global open building footprint dataset with coverage updates.
+- [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints): large global open building footprint dataset with regular regional coverage updates.
+- [Microsoft US Building Footprints](https://github.com/microsoft/USBuildingFootprints): nationwide U.S. building polygon dataset in GeoJSON format.
+- [Microsoft Canadian Building Footprints](https://github.com/microsoft/CanadianBuildingFootprints): country-scale building footprints for all Canadian provinces and territories.
 - [OpenStreetMap](https://www.openstreetmap.org/): community-maintained open map data widely used in AEC geospatial workflows.
-- [Overture Maps Foundation](https://overturemaps.org/): open interoperable map data initiative for production-grade geospatial data.
-- [Overture Maps Data Repo](https://github.com/OvertureMaps/data): release access details, schemas, and data themes (including buildings).
+- [Daylight Map Distribution of OpenStreetMap](https://registry.opendata.aws/daylight-osm/): analysis-ready OSM distribution (including parquet) for large-scale querying.
+- [Overture Maps Data Repo](https://github.com/OvertureMaps/data): cloud-native open map releases with building, transportation, and place themes.
+- [Open City Model (OCM)](https://registry.opendata.aws/opencitymodel/): U.S.-focused 3D city/building data initiative (CityGML-oriented workflows).
+- [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/): high-value elevation and point-cloud source for terrain, grading, and infrastructure analysis.
+- [Open Nation-Scale LiDAR Collection](https://registry.opendata.aws/open-lidar-data/): aggregated open LiDAR datasets (including COPC conversions) for multi-country coverage.
+- [NREL End-Use Load Profiles for U.S. Building Stock](https://registry.opendata.aws/nrel-pds-building-stock/): calibrated residential/commercial building energy-use profiles for retrofit and decarbonization studies.
+- [buildingSMART Sample & Test Files](https://github.com/buildingSMART/Sample-Test-Files): official openBIM test datasets across IFC versions for interoperability checks.
+- [buildingSMART Community Sample Test Files](https://github.com/buildingsmart-community/Community-Sample-Test-Files): community-contributed IFC/BCF/IDS sample datasets for pipeline validation.
 
 ### Agents
 
@@ -70,7 +77,7 @@ The following resources were selected from official websites and active GitHub r
 - [Speckle Automate](https://speckle.systems/build-with-speckle): AEC-oriented automation workflows that can host validation/reporting logic.
 - [APS MCP/Revit Automation Samples](https://github.com/search?q=topic%3Aautodesk-designautomation+org%3Aautodesk-platform-services&type=Repositories): examples of AI-connected and automation-oriented workflows in AEC contexts.
 
-### BIM
+### BIM resoruces
 
 - [buildingSMART IFC Standard](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/): official source for IFC versions and compliance resources.
 - [IFC5 Development](https://github.com/buildingSMART/IFC5-development): next-generation IFC development examples.
