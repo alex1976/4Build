@@ -114,8 +114,9 @@
     .hero {
       margin-top: 1.4rem;
       display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
+      grid-template-columns: 1fr;
       gap: 1rem;
+      width: 100%;
     }
 
     .hero-panel,
@@ -129,6 +130,7 @@
     }
 
     .hero-panel {
+      width: 100%;
       padding: 1.3rem;
       position: relative;
       overflow: hidden;
@@ -143,18 +145,20 @@
     }
 
     h1 {
+      width: 100%;
       margin: 0.2rem 0 0.8rem;
       font-size: clamp(1.7rem, 4vw, 3rem);
       line-height: 1.04;
       letter-spacing: -0.02em;
-      max-width: 18ch;
+      max-width: none;
     }
 
     .sub {
+      width: 100%;
       color: var(--ink-soft);
       font-size: 1rem;
       line-height: 1.55;
-      max-width: 56ch;
+      max-width: none;
     }
 
     .tag-row {
@@ -366,22 +370,24 @@
     <section class="hero">
       <article class="hero-panel">
         <p class="repo-chip">Public Repository</p>
-        <h1>4BUILD: Sotware tools and Best Practices for AEC sector</h1>
+        <h1>4BUILD: Sotware tools and resources for AEC sector</h1>
         <p class="sub">
-          4BUILD is a repository focused on software for the construction sector. It
-          collects tools, APIs, agents, datawarehouses, and documents to help teams
+          4BUILD is a repository focused on software for the AEC (Architecture, Engineering and Construction) sector. It
+          collects tools, APIs, agents, data, and documents to help teams
           standardize workflows, improve delivery quality, and scale digital operations.
         </p>
         <div class="tag-row">
           <span class="tag">Tools</span>
           <span class="tag">APIs</span>
           <span class="tag">Agents</span>
-          <span class="tag">Datawarehouses</span>
+          <span class="tag">BIM</span>
+          <span class="tag">Data</span>
           <span class="tag">Documents</span>
         </div>
       </article>
+    </section>
 
-      <aside class="stats-panel">
+      <!--<aside class="stats-panel">
         <div class="stat">
           <p class="stat-value">2.4k</p>
           <p class="stat-label">Stars</p>
@@ -398,8 +404,7 @@
           <p class="stat-value">96%</p>
           <p class="stat-label">Docs Coverage</p>
         </div>
-      </aside>
-    </section>
+      </aside>-->
 
     <section class="grid">
       <article class="card observe">
@@ -407,20 +412,11 @@
         <p class="muted">Organized around software assets and implementation guidance for construction teams.</p>
         <div class="tree">4build/
       +-- tools/
-      |   +-- estimations/
-      |   +-- planning/
       +-- apis/
-      |   +-- integrations/
-      |   +-- webhooks/
       +-- agents/
-      |   +-- coordination/
-      |   +-- qa-automation/
-      +-- datawarehouses/
-      |   +-- schemas/
-      |   +-- pipelines/
+      +-- bim/
+      +-- data/
       +-- documents/
-      |   +-- standards/
-      |   +-- playbooks/
       +-- README.md</div>
       </article>
 
