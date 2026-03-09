@@ -77,6 +77,7 @@ The following resources were selected from official websites and active GitHub r
 - [IDS (Information Delivery Specification)](https://github.com/buildingSMART/IDS): XML standard for machine-readable BIM information requirements.
 - [IfcOpenShell Website](https://www.ifcopenshell.org/): toolkit downloads and documentation ecosystem for openBIM workflows.
 - [buildingSMART Data Dictionary (bSDD)](https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/): standardized dictionary service to link terms/properties in BIM workflows.
+- [Bonsai BIM](https://bonsaibim.org/): Free, open source, native IFC authoring platform.
 
 ## Notes
 
