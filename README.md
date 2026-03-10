@@ -1,11 +1,12 @@
 # 4Build
 
-4Build is a repository focused on software tools and resources for the AEC sector (Architecture, Engineering, and Construction).
+4Build is a repository focused on open source software tools and resources for the AEC sector (Architecture, Engineering, and Construction).
 
 The project aims to collect practical assets that help teams:
-- standardize digital workflows
-- improve delivery quality
-- scale operations across design, engineering, and construction activities
+- To develop software solutions
+- To improve digital flows
+- To optimize workflows
+- to make deployment more efficient
 
 ## Current Repository Content
 
